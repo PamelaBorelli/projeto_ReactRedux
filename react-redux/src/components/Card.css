@@ -43,27 +43,27 @@ body{
 
 .Card.Green .header{
     color: #fff;
-    background-color: green;
+    background-color: #2E7d32;
 }
 
 .Card.Green .content{
-    background-color: green;
+    background-color: #4CAF50;
 }
 
 .Card.Blue .header{
     color: #fff;
-    background-color: blue;
+    background-color: #1565C0;
 }
 
 .Card.Blue .content{
-    background-color: blue;
+    background-color: #2196F3;
 }
 
 .Card.Purple .header{
     color: #fff;
-    background-color: blueviolet;
+    background-color: #6A1B9A;
 }
 
 .Card.Purple .content{
-    background-color: blueviolet;
+    background-color: #9C27B0;
 }

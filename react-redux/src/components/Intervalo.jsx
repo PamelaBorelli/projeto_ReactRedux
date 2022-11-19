@@ -4,21 +4,22 @@ import React from "react"
 import Cards from "./Cards"
 
 export default props =>{
-    return{
-        <Cardtitle ="Intervalo de Números " red>
-        <div>
+    const {min, max} = props
+    return(
+        <Cards title ="Intervalo de Números " red>
+        <div className="Intervalo">
             <span>
             Minimo:
-            <input type="number" value={0} />
+            <input type="number" value={min} onChange = {e => props.onMinChanged(+e.target.value)} />
             </span>
 
             <span>
             Maximo:
-            <input type="number" value={10} />
+            <input type="number" value={max} onChange = {e => props.onMaxChanged(+e.target.value)}/>
             </span>
 
 
         </div>
-        </Card>
-    }
+        </Cards>
+    )
 }
